@@ -46,11 +46,9 @@ Built following the **APASSA** framework (Ask → Prepare → Process → Analyz
 ## Repo contents
 
 ```
-├── Global Electronics Retailer.pbip     # Power BI Project (recommended — open this)
 ├── Global Electronics Retailer.pbix     # Standalone Power BI file
 ├── CSV Data / Excel Data                # Source data exports
 ├── Global Electronics Retailer Dashboard Overview.pdf   # Full dashboard screenshots
-├── Global Electronics Retailer Analytical Report.pdf    # Written performance analysis
 └── Process Documentations.docx          # Data prep & methodology notes
 ```
 
