@@ -55,7 +55,7 @@ Built following the **APASSA** framework (Ask → Prepare → Process → Analyz
 ## Getting started
 
 1. Clone or download this repository.
-2. Open `Global Electronics Retailer.pbip` in [Power BI Desktop](https://www.microsoft.com/power-bi/) (recommended — no packaged signature, plays nicely with version control).
+2. Open `Global Electronics Retailer.box ` in [Power BI Desktop](https://www.microsoft.com/power-bi/) (recommended — no packaged signature, plays nicely with version control).
 3. Explore the four report pages via the left-hand menu, or use the filters to drill into a specific market.
 
 ## Key insight
