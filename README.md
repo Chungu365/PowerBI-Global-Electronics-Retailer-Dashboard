@@ -36,7 +36,7 @@ A star schema built around a central fact table:
 
 ## Tools & process
 
-Built following the **APASSA** framework (Ask → Prepare → Process → Analyze → Share → Act):
+Built following the **APASSA** framework (Ask → Prepare → Process → Analyze → Share → Act) — see the full write-up in [`Process Documentation/`](Process%20Documentation/Process%20Documentations.docx).
 
 - **Excel** — initial data cleaning (deduplication, date standardization, blank handling)
 - **Power Query / Power BI** — feature engineering and data modeling
@@ -46,20 +46,25 @@ Built following the **APASSA** framework (Ask → Prepare → Process → Analyz
 ## Repo contents
 
 ```
-├── Global Electronics Retailer.pbix     # Standalone Power BI file
-├── CSV Data / Excel Data                # Source data exports
-├── Global Electronics Retailer Dashboard Overview.pdf   # Full dashboard screenshots
-└── Process Documentations.docx          # Data prep & methodology notes
+├── Dashboard/
+│   ├── Global Electronics Retailer.pbix               # Power BI report + model
+│   └── Global Electronics Retailer Dashboard Overview.pdf   # Full dashboard screenshots
+├── Excel Data/                                         # Source Excel exports
+├── Process Documentation/
+│   └── Process Documentations.docx                     # Data prep & methodology notes (APASSA)
+├── Report/
+│   └── Global Electronics Retailer Analytical Report.pdf   # Full written analysis
+└── readme_assets/                                      # Images used in this README
 ```
 
 ## Getting started
 
 1. Clone or download this repository.
-2. Open `Global Electronics Retailer.box ` in [Power BI Desktop](https://www.microsoft.com/power-bi/) (recommended — no packaged signature, plays nicely with version control).
+2. Open `Dashboard/Global Electronics Retailer.pbix` in [Power BI Desktop](https://www.microsoft.com/power-bi/).
 3. Explore the four report pages via the left-hand menu, or use the filters to drill into a specific market.
 
 ## Key insight
 
 > Four product categories carry 73% of revenue, eight stores plus one online channel carry a fifth of it, and margin ranges 21 points across subcategories doing similar volume. The 2020 revenue decline came from fewer orders — not lower prices.
 
-See the full [Analytical Report](Global%20Electronics%20Retailer%20Analytical%20Report.pdf) for the complete breakdown.
+See the full [Analytical Report](Report/Global%20Electronics%20Retailer%20Analytical%20Report.pdf) for the complete breakdown.
